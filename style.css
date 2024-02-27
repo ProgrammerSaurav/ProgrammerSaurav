@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/J A R V I S 1/bgImg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw cover;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  width: 99vw;
+  
+}
+
+.video {
+  height: 80vh;
+  width: 80vw;
+}
+
+.resultContainer {
+  background: #73769B29;
+  color: white;
+  width: 20rem;
+  font-size: 1.4rem;
+  height: 80%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.output {
+  font-weight: bold;
+  color:green;
+  margin-top: 0.1rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+.btnBox{
+  height:2rem;
+  width:100%;
+}
+.output, .input{
+  z-index: -1;
+}
+.conversation{
+  overflow: auto;
+  height:95%;
+}
+.clear {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  background: #EDDEDE54;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  /* position: fixed; */
+  z-index: 1;
+  margin-left: 80%;
+  outline: none;
+  cursor: pointer;
+}
+
+.userInput {
+  font-size: 1.1rem;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  height: 3rem;
+  padding: 0.3rem 0.8rem;
+  width: 90vw;
+  margin: 0 2rem;
+  outline: none;
+}
+.volumeBox{
+  color:white;
+  
+/*   margin-left: 1rem;
+margin-top: 1rem; */
+}
+.volumeBox i{
+  font-size: 1.4rem;
+  
+}
+
+.volumeType{
+  background: #73769B29;
+  padding: 0.2rem 0.8rem;
+  transition: all ease 0.3s;
+  opacity: 1;
+  display: inline;
+}
